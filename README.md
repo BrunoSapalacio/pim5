@@ -1,16 +1,14 @@
-# pim5
+# PIM 5 - Análise e Desenvolvimento de Sistemas - UNIP
 
-A new Flutter project.
+Protótipo de interface de sistema para aluguel de equipamentos.
 
-## Getting Started
+## Framework utilizado
 
-This project is a starting point for a Flutter application.
+Estre protótipo foi desenvolvido utilizando Flutter/Dart.
 
-A few resources to get you started if this is your first Flutter project:
+Para mais informações sobre Flutter visite os links abaixo:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
+- [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
