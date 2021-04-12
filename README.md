@@ -2,6 +2,9 @@
 
 Protótipo de interface de sistema para aluguel de equipamentos.
 
+## Equipe
+Alberto Senna Dias Neto
+...
 ## Framework utilizado
 
 Estre protótipo foi desenvolvido utilizando Flutter/Dart.
