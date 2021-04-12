@@ -3,8 +3,16 @@
 Protótipo de interface de sistema para aluguel de equipamentos.
 
 ## Equipe
-Alberto Senna Dias Neto
-...
+2017581 - BRUNO SAPALACIO MINEIRO (líder)
+
+2009202 - ALBERTO SENNA DIAS NETO
+
+2022929 - LEANDRO PEREIRA COSTA
+
+2000290 - PAULO HENRIQUE MENEZES DE SOUZA
+
+2025264 - SOLIMAR MARCONDES DE MELO
+
 ## Framework utilizado
 
 Estre protótipo foi desenvolvido utilizando Flutter/Dart.
