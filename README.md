@@ -22,7 +22,7 @@ Protótipo de interface de sistema para aluguel de equipamentos.
 </td>
 
 <td style="text-align: center">
-    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/screenshot_02_login.jpg" width="200" />
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/screenshot_02_cadastro.png" width="200" />
 </td>
 
 </tr>
