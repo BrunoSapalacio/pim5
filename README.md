@@ -13,6 +13,18 @@ Protótipo de interface de sistema para aluguel de equipamentos.
 
 2025264 - SOLIMAR MARCONDES DE MELO
 
+## Screenshots
+<div style="text-align: center">
+<table>
+<tr>
+<td style="text-align: center">
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/screenshot_01_login.jpg" width="200" />
+</td>
+
+</tr>
+</table>
+</div>
+
 ## Framework utilizado
 
 Estre protótipo foi desenvolvido utilizando Flutter/Dart.
