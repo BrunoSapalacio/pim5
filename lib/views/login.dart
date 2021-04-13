@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/buttons.dart';
+import '../utils/custom_text_field.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -98,6 +99,7 @@ class _LoginState extends State<Login> {
               CustomButtom(
                 buttonText: 'Entrar',
                 backgroundColor: Color(0XFFdf5252),
+                function: () {},
               ),
               SizedBox(
                 height: 8.0,
@@ -105,6 +107,9 @@ class _LoginState extends State<Login> {
               CustomButtom(
                 buttonText: 'Cadastrar',
                 backgroundColor: Color(0XFF22a1e3),
+                function: () {
+                  Navigator.pushNamed(context, '/recover_pass');
+                },
               ),
               SizedBox(
                 height: 15.0,
@@ -138,48 +143,6 @@ class _LoginState extends State<Login> {
                 ),
               ),
             ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class CustomTextFormField extends StatefulWidget {
-  final String hintText;
-  final obscureText;
-  const CustomTextFormField({
-    Key key,
-    this.hintText,
-    this.obscureText,
-  }) : super(key: key);
-
-  @override
-  _CustomTextFormFieldState createState() => _CustomTextFormFieldState();
-}
-
-class _CustomTextFormFieldState extends State<CustomTextFormField> {
-  @override
-  Widget build(BuildContext context) {
-    return TextFormField(
-      obscureText: widget.obscureText,
-      decoration: InputDecoration(
-        hintText: widget.hintText,
-        contentPadding: EdgeInsets.only(
-          left: 15.0,
-          right: 15.0,
-        ),
-        focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(8.0),
-          borderSide: BorderSide(
-            color: Colors.red,
-          ),
-        ),
-        enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(8.0),
-          borderSide: BorderSide(
-            color: Colors.red,
-            width: 2.0,
           ),
         ),
       ),
