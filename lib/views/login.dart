@@ -99,7 +99,9 @@ class _LoginState extends State<Login> {
               CustomButtom(
                 buttonText: 'Entrar',
                 backgroundColor: Color(0XFFdf5252),
-                function: () {},
+                function: () {
+                  Navigator.pushNamed(context, '/home');
+                },
               ),
               SizedBox(
                 height: 8.0,
