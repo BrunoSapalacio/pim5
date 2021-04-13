@@ -92,19 +92,22 @@ class _LoginState extends State<Login> {
                   Text('Manter conectado'),
                 ],
               ),
+              SizedBox(
+                height: 30,
+              ),
               CustomButtom(
                 buttonText: 'Entrar',
                 backgroundColor: Color(0XFFdf5252),
               ),
               SizedBox(
-                height: 10.0,
+                height: 8.0,
               ),
               CustomButtom(
                 buttonText: 'Cadastrar',
                 backgroundColor: Color(0XFF22a1e3),
               ),
               SizedBox(
-                height: 10.0,
+                height: 15.0,
               ),
               RichText(
                 textAlign: TextAlign.center,
