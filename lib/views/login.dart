@@ -1,4 +1,5 @@
 import 'package:circular_check_box/circular_check_box.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/buttons.dart';
@@ -41,17 +42,18 @@ class _LoginState extends State<Login> {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(8.0),
                       child: Container(
+                        padding: EdgeInsets.all(0),
                         height: 50,
-                        width: 70,
+                        width: 83,
                         alignment: Alignment.center,
                         color: Color(0XFFdf5252),
                         child: Text(
-                          "fácil",
+                          "Fácil",
+                          textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 35,
                             fontFamily: "ScriptMT",
                             color: Colors.white,
-                            fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -104,7 +106,34 @@ class _LoginState extends State<Login> {
               SizedBox(
                 height: 10.0,
               ),
-              Text("Esqueceu a senha?\nClique aqui para recuperar"),
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  style: TextStyle(
+                    color: Colors.black54,
+                    fontSize: 16.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  children: [
+                    TextSpan(
+                      text: 'Esqueceu a senha?\n',
+                    ),
+                    TextSpan(
+                      text: 'Clique aqui',
+                      style: TextStyle(
+                        color: Colors.blueAccent,
+                      ),
+                      recognizer: TapGestureRecognizer()
+                        ..onTap = () {
+                          Navigator.pushNamed(context, '/recover_pass');
+                        },
+                    ),
+                    TextSpan(
+                      text: ' para recuperar',
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
