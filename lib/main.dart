@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pim5/views/recover_pass.dart';
 import 'views/login.dart';
 
 void main() {
@@ -13,7 +14,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Login(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => Login(),
+        '/recover_pass': (context) => RecoverPass(),
+      },
     );
   }
 }
