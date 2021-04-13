@@ -34,6 +34,7 @@ class _LoginState extends State<Login> {
                       style: TextStyle(
                         fontSize: 35,
                         fontWeight: FontWeight.bold,
+                        fontFamily: "ScriptMT",
                         color: Color(0XFF707070),
                       ),
                     ),
@@ -48,6 +49,7 @@ class _LoginState extends State<Login> {
                           "fácil",
                           style: TextStyle(
                             fontSize: 30,
+                            fontFamily: "ScriptMT",
                             color: Colors.white,
                             fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.bold,
