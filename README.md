@@ -18,11 +18,37 @@ Protótipo de interface de sistema para aluguel de equipamentos.
 <table>
 <tr>
 <td style="text-align: center">
-    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/screenshot_01_login.jpg" width="200" />
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618627102.png" width="200" />
 </td>
 
 <td style="text-align: center">
-    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/screenshot_02_cadastro.png" width="200" />
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618627607.png" width="200" />
+</td>
+
+<td style="text-align: center">
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618627859.png" width="200" />
+</td>
+
+</tr>
+<tr>
+<td style="text-align: center">
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618627991.png" width="200" />
+</td>
+
+<td style="text-align: center">
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618628166.png" width="200" />
+</td>
+
+<td style="text-align: center">
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618628239.png" width="200" />
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+    <img src="https://github.com/albertosdneto/pim5/blob/main/assets/images/Screenshot_1618628494.png" width="200" />
 </td>
 
 </tr>

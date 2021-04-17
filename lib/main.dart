@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pim5/views/confirma.dart';
 import 'package:pim5/views/home.dart';
+import 'package:pim5/views/pagamento.dart';
+import 'package:pim5/views/reservas.dart';
 import 'views/cadastro.dart';
 import 'views/login.dart';
 
@@ -21,6 +24,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => Login(),
         '/recover_pass': (context) => RecoverPass(),
         '/home': (context) => Home(),
+        '/reservas': (context) => ReservasView(),
+        '/pagamento': (context) => PagamentoView(),
+        '/confirma': (context) => ConfirmaView(),
       },
     );
   }
